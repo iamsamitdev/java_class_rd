@@ -1,0 +1,13 @@
+package com.itgenius;
+
+public class Condition {
+
+	public static void main(String[] args) {
+		if (1 == 0) {
+			System.out.println("Success");
+		} else {
+			System.out.println("Fail");
+		}
+	}
+
+}

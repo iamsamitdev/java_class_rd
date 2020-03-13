@@ -1,0 +1,23 @@
+package com.itgenius;
+
+public class JavaCreateFile {
+
+	public static void main(String[] args) {
+		
+		// การเขียนคำสั่งอ่าน path ปัจจบัน
+		String current_path = System.getProperty("user.dir");
+		
+		// System.out.println(current_path);
+		
+		// สร้างไฟล์ลงใน folder ด้วย java
+		try {
+			
+		} catch (Exception e) {
+			// System.out.println("มีข้อผิดพลาดในโปรแกรม");
+			System.out.println(e.printStackTrace())
+		}
+		
+
+	}
+
+}

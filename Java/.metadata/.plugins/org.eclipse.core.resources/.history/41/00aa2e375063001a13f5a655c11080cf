@@ -1,0 +1,16 @@
+package com.itgenius.crud;
+
+public class AddNewMember {
+
+	public static void main(String[] args) {
+		
+		try {
+			// เรียกใช้งาน class connect mysql
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

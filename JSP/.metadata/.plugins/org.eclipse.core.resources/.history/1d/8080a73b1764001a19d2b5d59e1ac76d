@@ -1,0 +1,9 @@
+<%@page import="java.sql.*"%>
+
+<%
+	// กำหนดตัวแปรสำหรับเชื่อมต่อฐานข้อมูล
+	String username = "root";
+	String password = "1234";
+	String character = "?useUnicode=true&characterEncoding=UTF-8";
+	
+%>

@@ -1,0 +1,25 @@
+package com.itgenius;
+
+import java.util.Arrays;
+
+public class JavaArraySorting {
+
+	public static void main(String[] args) {
+		String[] fruit = {"banana","orange","kiwi","apple"};
+		int[] number = {20,12,89,68,65,98};
+		
+		// เรียงข้อมูลสมาชิกของ array
+		Arrays.sort(fruit);
+		Arrays.sort(number);
+		
+		for(String f:fruit) {
+			System.out.print(f + " ");
+		}
+		
+		for(String n:number) {
+			System.out.print(f + " ");
+		}
+		
+	}
+
+}

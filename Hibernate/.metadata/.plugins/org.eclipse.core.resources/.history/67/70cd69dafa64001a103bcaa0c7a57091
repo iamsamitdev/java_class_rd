@@ -1,0 +1,5 @@
+package com.itgenius.entity;
+
+public class Product {
+
+}

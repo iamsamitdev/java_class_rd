@@ -1,0 +1,26 @@
+package com.itgenius;
+
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+
+public class DateCalendarTimezone {
+	
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		// Calendar cal = Calendar.getInstance(TimeZone.getTimeZone("Europe/Paris"));
+		//Calendar cal = Calendar.getInstance();
+		//assert ("gregory".equals(cal.getCalendarType()));
+		
+		LocalDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		
+		// cal.setTime(date);
+		
+		System.out.println(cal.get(Calendar.YEAR));
+	}
+
+	
+}

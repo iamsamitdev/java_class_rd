@@ -1,0 +1,42 @@
+package com.itgenius;
+
+import java.text.Collator;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Locale;
+
+public class JavaArraySorting {
+
+	public static void main(String[] args) {
+		String[] fruit = {"banana","orange","kiwi","apple"};
+		String[] firstname = {"สมชาย","วิชัย","อนุวัตร","ไพทูรย์"};
+		Integer[] number = {20,12,89,68,65,98};
+		
+		// เรียงข้อมูลสมาชิกของ array น้อยไปมาก (asc)
+		//Arrays.sort(fruit);
+		//Arrays.sort(number);
+		
+		// เรียงข้อมูลสมาชิกของ array มากไปน้อย (desc)
+		Arrays.sort(fruit, Collections.reverseOrder());
+		Arrays.sort(number, Collections.reverseOrder());
+		// Arrays.sort(firstname, Collections.reverseOrder());
+		Arrays.sort(firstname, Collator.getInstance(new Locale("th","TH")).reversed());
+		
+		for(String f:fruit) {
+			System.out.print(f + " ");
+		}
+		
+		System.out.println("");
+		
+		for(int n:number) {
+			System.out.print(n + " ");
+		}
+		
+		System.out.println("");
+		for(String fname:firstname) {
+			System.out.print(fname + " ");
+		}
+		
+	}
+
+}

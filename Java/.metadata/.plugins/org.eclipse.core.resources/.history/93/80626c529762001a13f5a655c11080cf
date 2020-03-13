@@ -1,0 +1,21 @@
+package com.itgenius;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateTime {
+
+	public static void main(String[] args) {
+		
+		// Class สำหรับดึงวันที่และเวลาของเครื่อง
+		Date date_now = new Date();
+		// แสดงผลวันที่และเวลา
+		System.out.println(date_now);
+		
+		// จัดรูปแบบวันที่ตามที่เราต้องการ
+		String  pattern = "dd-MM-yy";
+		SimpleDateFormat sf = new SimpleDateFormat();
+
+	}
+
+}

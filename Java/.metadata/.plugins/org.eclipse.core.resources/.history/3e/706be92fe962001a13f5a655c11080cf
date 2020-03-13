@@ -1,0 +1,27 @@
+package com.itgenius;
+
+import java.sql.Statement;
+
+import com.itgenius.db.ConnectMySQL;
+
+public class AddnewMember {
+
+	public static void main(String[] args) {
+		try {
+			// เรียกใช้งาน class connect mysql
+			ConnectMySQL db = new ConnectMySQL();
+			
+            // สร้างตัวแปร statement สำหรับไว้เขียน sql
+			Statement stm = db.connect().createStatement();
+			
+			// เขียนคำสั่ง sql select form member
+            String sql = "INSERT INTO member(firstname,lastname,email,tel,address,status) " +
+                    "VALUES('John','Doe','john@gmail.com','0737982922','20/2 moo2','1')";
+            
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

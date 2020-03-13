@@ -1,0 +1,42 @@
+package com.itgenius;
+
+public class ConnectDB {
+	
+	// ฟังก์ชันทดสอบ Load JDBC Driver
+	public static void connection() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Load driver success");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// ฟังก์ชันเชื่อมต่อฐานข้อมูล MySQL
+	public static void connectmysql() {
+		String host = "localhost";
+		String user = "root";
+		String pass = "1234";
+		String dbname = "javadb";
+		String port = "3306";
+		
+		String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+"?serverTimezone=UTC&useSSL=false";
+		try {
+			Connection conn = DriverManager.getConnection(url, user, pass);
+			if(conn != null) {
+				System.out.println("Connnect successful");
+			}else {
+				System.out.println("Fail! to connection");
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		connection();
+	}
+
+}

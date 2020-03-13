@@ -1,0 +1,16 @@
+package com.itgenius;
+
+import java.util.Scanner;
+
+public class SwichCase {
+
+	public static void main(String[] args) {
+		
+		// รับค่าหมายเลขชั้นจาก user
+		Scanner reader = new Scanner(System.in);
+		System.out.println("What's floor do you want to go ? : ");
+		
+
+	}
+
+}

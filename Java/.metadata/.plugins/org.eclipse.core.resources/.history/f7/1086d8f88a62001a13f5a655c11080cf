@@ -1,0 +1,13 @@
+package com.itgenius;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		
+		while(num <= 10) {
+			
+		}
+
+	}
+
+}

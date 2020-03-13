@@ -1,0 +1,22 @@
+package com.itgenius;
+
+import java.io.BufferedReader;
+import java.io.FileWriter;
+
+public class WriteFile {
+
+	public static void main(String[] args) {
+		// การเขียนคำสั่งอ่าน path ปัจจบัน
+		String current_path = System.getProperty("user.dir");
+		
+		try {
+			// คำสั่งในการเขียนข้อมูลลงใน file
+			BufferedReader out = new BufferedReader(new FileWriter(current_path+"xxx"))
+		}catch (Exception e) {
+			// System.out.println("มีข้อผิดพลาดในโปรแกรม");
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.itgenius;
+
+import java.util.Date;
+
+public class DateTime {
+
+	public static void main(String[] args) {
+		
+		// Class สำหรับดึงวันที่และเวลาของเครื่อง
+		Date date_now = new Date(); 
+
+	}
+
+}

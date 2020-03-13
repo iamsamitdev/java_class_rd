@@ -1,0 +1,5 @@
+package com.itgenius.db;
+
+public class ConnectMySQL {
+
+}

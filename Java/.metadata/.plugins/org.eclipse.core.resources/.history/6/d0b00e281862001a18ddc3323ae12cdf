@@ -1,0 +1,12 @@
+package com.itgnius;
+
+import java.io.File;
+
+public class JavaFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file = new File("foo/foo-one.txt");
+	}
+
+}

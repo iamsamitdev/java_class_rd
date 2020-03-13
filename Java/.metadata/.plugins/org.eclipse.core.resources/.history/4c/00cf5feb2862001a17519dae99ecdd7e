@@ -1,0 +1,22 @@
+package com.itgnius;
+
+class Lamp {
+	boolean isOn;
+	
+	void turnOn() {
+		isOn = true;
+	}
+	
+	void turnOff() {
+		isOn = false;
+	}
+}
+
+public class ClassObjectsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.itgenius;
+
+public class ConnectDB {
+	
+	// ¿Ñ§¡ìªÑ¹·´ÊÍº Load JDBC Driver
+	public void connection() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver")
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

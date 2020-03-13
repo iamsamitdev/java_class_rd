@@ -1,0 +1,16 @@
+package com.itgenius;
+
+public class ConditionIfEsle {
+
+	public static void main(String[] args) {
+		
+		boolean permission = true;
+		String username = "admin";
+		String password = "1234";
+		String type = "user";
+		
+		
+
+	}
+
+}

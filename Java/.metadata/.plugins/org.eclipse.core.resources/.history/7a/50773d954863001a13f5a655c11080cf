@@ -1,0 +1,33 @@
+package com.itgenius;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectMySQL {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+			// Step 1: Load Driver
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Load driver success");
+			
+			// Step 2: Connect MySQL
+			// กำหนดตัวแปรสำหรับไว้เชื่อมต่อฐานข้อมูล
+			String host = "localhost";
+			String user = "root";
+			String pass = "";
+			String dbname = "javadb";
+			String port = "3306";
+			
+			String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+"?serverTimezone=UTC";
+			Connection connect = DriverManager.getConnection(url,user,pass);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

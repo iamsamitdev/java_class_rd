@@ -1,0 +1,32 @@
+package com.itgnius;
+
+import java.io.File;
+
+public class JavaFile {
+
+	public static void main(String[] args) {
+
+		// Java Read current path
+		String current_path = System.getProperty("user.dir");
+
+		// Java Create new file
+		try {
+			File file = new File(current_path + "/dataFile/data.txt");
+			if (file.createNewFile()) {
+				System.out.println("Welcome");
+			} else {
+				System.out.println("Error file already exists");
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		/*
+		 * File file = new File("C:\\Directory1"); if (!file.exists()) { if
+		 * (file.mkdir()) { System.out.println("Directory is created!"); } else {
+		 * System.out.println("Failed to create directory!"); } }
+		 */
+	}
+
+}

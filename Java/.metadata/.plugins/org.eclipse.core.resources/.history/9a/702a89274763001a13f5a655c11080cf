@@ -1,0 +1,20 @@
+package com.itgenius;
+
+public class ConnectMySQL {
+
+	public static void main(String[] args) {
+		
+		try {
+			// Step 1: Load Driver
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Load driver success");
+			
+			// Step 2: Connect MySQL
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

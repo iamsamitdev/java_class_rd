@@ -1,0 +1,43 @@
+package com.itgenius;
+
+import java.util.Scanner;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		
+		/*
+		int num = 1;
+		while(num <= 10) {
+			System.out.println(num);
+			num++;
+		}
+		
+		
+		// Infinity loop
+		int num = 100;
+		while(true) {
+			if(num % 10 == 0) {
+				System.out.println(String.format("%03d", num));
+			}else {
+				System.out.print(String.format("%03d ", num));
+			}
+			num++;
+		}
+		 */
+		
+		// Game guese lucky number
+		int answer = 68;
+		
+		while(true) {
+			
+			Scanner input = new Scanner(System.in);
+			System.out.print("Guese lucky nubmer :");
+			int data = input.nextInt();
+			
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.itgenius;
+
+public class Variable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// การประกาศตัวแปร
+		int age = 35; // ตัวแปรเก็บข้อมูลแบบตัวเลขจำนวนเต็ม
+		byte vat = 7; // เลขจำนวนเต็มไม่เกิน 127
+		long data = 23908930893903L; // เก็บข้อมูลขนาดยาว
+		short number = 379; // เก็บข้อมูล 32,000
+		float price = 300.50f; // เก็บทศนิยม
+		double total = 1200.75;
+		
+	}
+
+}

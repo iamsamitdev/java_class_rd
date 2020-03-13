@@ -1,0 +1,20 @@
+package com.itgenius;
+
+public class JavaArray {
+
+	public static void main(String[] args) {
+		// สร้างตัวแปรแบบ array
+		int[] number = {20,12,89,68,65,98};
+		
+		// การเรียกแสดงผล array
+		System.out.println(number[0]+" "+ number[2]);
+		
+		// การนับสมาชิกของ Array
+		System.out.println(number.length);
+		
+		// อ่านสมาชิกของ array ทั้งหมดด้วยการวน loop
+		
+		
+	}
+
+}

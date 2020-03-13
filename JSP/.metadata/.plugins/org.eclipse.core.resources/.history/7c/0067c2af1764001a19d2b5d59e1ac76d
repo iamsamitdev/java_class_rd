@@ -1,0 +1,17 @@
+<%@page import="java.sql.*"%>
+
+<%
+	// กำหนดตัวแปรสำหรับเชื่อมต่อฐานข้อมูล
+	String host = "localhost";
+	String username = "root";
+	String password = "1234";
+	String dbname = "javacrud";
+	String port = "3306";
+	String character = "?useUnicode=true&characterEncoding=UTF-8";
+	String url = "jdbc:mysql://"+host+"/"+dbname+character;
+	
+	// Load Driver
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	
+	
+%>

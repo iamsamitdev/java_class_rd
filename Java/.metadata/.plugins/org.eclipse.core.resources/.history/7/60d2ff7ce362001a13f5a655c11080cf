@@ -1,0 +1,26 @@
+package com.itgenius;
+
+public class ConnectDB {
+	
+	// ฟังก์ชันทดสอบ Load JDBC Driver
+	public static void connection() {
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Load driver success");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// ฟังก์ชันเชื่อมต่อฐานข้อมูล MySQL
+	public static void connectmysql() {
+		
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		connection();
+	}
+
+}

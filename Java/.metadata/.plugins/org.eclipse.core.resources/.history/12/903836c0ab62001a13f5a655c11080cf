@@ -1,0 +1,11 @@
+package com.itgenius;
+
+public class JavaCreateFile {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

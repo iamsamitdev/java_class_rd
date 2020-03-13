@@ -1,0 +1,34 @@
+package com.itgnius;
+
+class Lamp {
+	boolean isOn;
+	
+	void turnOn() {
+		isOn = true;
+	}
+	
+	void turnOff() {
+		isOn = false;
+	}
+	
+	void displayLightStatus() {
+	     
+	     System.out.println("Light on? " + isOn);
+	  }
+}
+
+public class ClassObjectsExample {
+
+	public static void main(String[] args) {
+		
+		// Create Object
+		Lamp l1 = new Lamp();
+		Lamp l2 = new Lamp();
+		
+		// Access members
+		l1.isOn = false;
+		l2.isOn = 
+
+	}
+
+}

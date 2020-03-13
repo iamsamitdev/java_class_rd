@@ -1,0 +1,24 @@
+package com.itgenius;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class ConvertDateTime {
+
+	public static void main(String[] args) throws ParseException {
+		
+		String mysql_date = "2020-03-10 14:09:00";
+		String pattern = "dd/MM/yyyy";
+		
+		DateFormat format  = new SimpleDateFormat(pattern, Locale.ENGLISH);
+		Date date = format.parse(mysql_date);
+		
+		
+		
+		
+	}
+
+}

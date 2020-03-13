@@ -1,0 +1,9 @@
+package com.itgenius.db;
+
+import java.sql.Connection;
+
+public class ConnectMySQL {
+	Connection connect() {
+		
+	}
+}

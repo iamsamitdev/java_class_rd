@@ -1,0 +1,19 @@
+package com.itgenius;
+
+import java.util.Arrays;
+
+public class JavaArraySorting {
+
+	public static void main(String[] args) {
+		String[] fruit = {"banana","orange","kiwi","apple"};
+		
+		// เรียงข้อมูลสมาชิกของ array
+		Arrays
+		
+		for(String f:fruit) {
+			System.out.print(f + " ");
+		}
+		
+	}
+
+}

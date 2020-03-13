@@ -1,0 +1,16 @@
+package com.itgenius;
+
+import java.util.Scanner;
+
+public class JavaScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Class สำหรับรับข้อมูล
+		Scanner input = new Scanner(System.in);
+		System.out.print("ป้อนชื่อของคุณ : ");
+		String data = input.nextLine();
+		
+	}
+
+}

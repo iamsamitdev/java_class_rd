@@ -1,0 +1,15 @@
+package com.itgnius;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class JavaDateTime {
+	public static void main(String[] args) {
+		Date date = new Date();
+		System.out.println(date.toString());
+		
+		Date dNow = new Date();
+		SimpleDateFormat ft = new SimpleDateFormat("y-M-d");
+		System.out.println(ft.format(dNow));
+	}
+}

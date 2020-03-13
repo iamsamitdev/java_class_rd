@@ -1,0 +1,109 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: Helvetica;
+}
+
+/*** เซ็ตสีลิงก์ ***/
+.menu ul li a:link{
+    color: #fff;
+}
+
+.menu ul li a:visited{
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    color: orange;
+}
+
+.menu ul li a:active{
+    color: brown;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; /*กำหนดให้จัดกลุ่มเนื้อหาภายในทั้งหมด*/
+}
+
+.sidemenu{
+    width: 200px;
+    min-height: 90vh;
+    background-color: green;
+    float: left; /*จัดกล่องชิดซ้าย*/
+    padding: 10px;
+}
+
+.sidemenu .menu{
+    border:1px solid #fff;
+}
+
+.sidemenu .menu ul{
+    line-height: 30px;
+}
+
+.sidemenu.menu ul li a{
+    color: #fff;
+}
+
+.right-content{
+    width: 800px;
+    float: left;
+}
+
+.right-content .header{
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.right-content .header .menu{
+    overflow: hidden;
+    float: left;
+}
+
+.right-content .header .menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+
+.right-content .header .menu ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.right-content .header .searchbox{
+    float: right;
+}
+
+.content{
+    padding: 20px;
+}
+
+/*** FOOTER***/
+.footer{
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+/**** PROFILE AND LOGOUT****/
+.profile{
+    color:#fff;
+}
+
+.btn-logout{
+    border:1px solid #fff;
+    background-color: crimson;
+    color:#fff;
+    padding: 5px;
+}
+

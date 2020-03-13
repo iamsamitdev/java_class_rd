@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Fri Mar 13 11:59:32 ICT 2020
+org.eclipse.jst.jee.server\:HelloJSP=C\:\\apache-tomcat-9.0.31\\wtpwebapps\\HelloJSP
+org.eclipse.jst.jee.server\:LoginWithJSP=C\:\\apache-tomcat-9.0.31\\wtpwebapps\\LoginWithJSP
+org.eclipse.jst.jee.server\:JavaJSPCRUD=C\:\\apache-tomcat-9.0.31\\wtpwebapps\\JavaJSPCRUD
+org.eclipse.jst.jee.server\:JSPTemplateWebApp=C\:\\apache-tomcat-9.0.31\\wtpwebapps\\JSPTemplateWebApp
+org.eclipse.jst.jee.server\:LoginWithMySQL=C\:\\apache-tomcat-9.0.31\\wtpwebapps\\LoginWithMySQL

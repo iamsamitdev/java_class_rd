@@ -1,0 +1,16 @@
+package com.itgenius;
+
+public class Condition {
+
+	String username = "admin";
+	String password = "1234";
+	
+	public static void main(String[] args) {
+		if (1 == 0) {
+			System.out.println("Success");
+		} else {
+			System.out.println("Fail");
+		}
+	}
+
+}

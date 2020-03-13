@@ -1,0 +1,19 @@
+package com.itgenius;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.TimeZone;
+
+public class DateCalendarTimezone {
+	
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		Calendar cal = Calendar.getInstance(TimeZone.getTimeZone(""));
+		cal.setTime(date);
+		
+		System.out.println(cal.get(Calendar.YEAR));
+	}
+
+	
+}

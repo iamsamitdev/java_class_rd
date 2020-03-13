@@ -1,0 +1,93 @@
+package com.itgenius.main.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="products")
+
+public class Product {
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
+	
+	@Column(name = "product_name")
+    private String productName;
+
+    @Column(name = "product_barcode")
+    private String productBarcode;
+
+    @Column(name = "product_qty")
+    private String productQty;
+    
+    @Column(name = "product_price")
+    private String productPrice;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getProductName() {
+		return productName;
+	}
+
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+
+	public String getProductBarcode() {
+		return productBarcode;
+	}
+
+	public void setProductBarcode(String productBarcode) {
+		this.productBarcode = productBarcode;
+	}
+
+	public String getProductQty() {
+		return productQty;
+	}
+
+	public void setProductQty(String productQty) {
+		this.productQty = productQty;
+	}
+
+	public String getProductPrice() {
+		return productPrice;
+	}
+
+	public void setProductPrice(String productPrice) {
+		this.productPrice = productPrice;
+	}
+
+	public Product(int id, String productName, String productBarcode, String productQty, String productPrice) {
+		super();
+		this.id = id;
+		this.productName = productName;
+		this.productBarcode = productBarcode;
+		this.productQty = productQty;
+		this.productPrice = productPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", productName=" + productName + ", productBarcode=" + productBarcode
+				+ ", productQty=" + productQty + ", productPrice=" + productPrice + "]";
+	}
+
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+    
+    
+}

@@ -1,0 +1,23 @@
+package com.itgnius;
+
+public class JavaDeleteFile {
+
+	public static void main(String[] args) {
+		try{
+            String filepath = "D:/Basic Java Work/JavaFile/data/sss.txt";
+            File file = new File(filepath);
+     
+            // §” —Ëß≈∫‰ø≈Ï
+            if(file.delete()){
+                System.out.println("Delete file success");
+            }else{
+                System.out.println("Delete file fail");
+            }
+     
+     }catch(Exception e){
+         System.out.println("Error delete file");
+     }
+
+	}
+
+}

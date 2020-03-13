@@ -1,0 +1,14 @@
+
+public class HelloJava {
+	// สร้างฟังก์ชันหลัก
+	public static void main(String[] args) {
+		// คำสั่งแสดงผลออกหน้าจอ
+		System.out.println("Hello Java");
+		System.out.println("สวัสดีภาษาจาวา");
+		System.out.println(2+3);
+		System.out.println(2-3);
+		System.out.println(2*3);
+		System.out.println(4/2);
+		System.out.println(2**3);
+	}
+}

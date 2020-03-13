@@ -1,0 +1,13 @@
+package com.itgenius;
+
+public class WriteFile {
+
+	public static void main(String[] args) {
+		// การเขียนคำสั่งอ่าน path ปัจจบัน
+		String current_path = System.getProperty("user.dir");
+		
+		
+
+	}
+
+}

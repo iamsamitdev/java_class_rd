@@ -1,0 +1,36 @@
+package com.itgenius;
+
+import java.util.Scanner;
+
+public class SwichCase {
+
+	public static void main(String[] args) {
+
+		// รับค่าหมายเลขชั้นจาก user
+		Scanner reader = new Scanner(System.in);
+		System.out.print("What's floor do you want to go ? : ");
+		String floor = reader.next();
+
+		// System.out.println(floor);
+
+		// เขียนเงื่อนไขตรวจสอบเลขที่ผู้ใช้ป้อนเข้ามา
+		switch (floor.toLowerCase()) {
+			case "G":
+				System.out.println("Elevator is going to ground floor");
+				break;
+			case "1":
+				System.out.println("Elevator is going to first floor");
+				break;
+			case "2":
+				System.out.println("Elevator is going to second floor");
+				break;
+			case "3":
+				System.out.println("Elevator is going to third floor");
+				break;
+			default:
+				System.out.println("Elevator don't know where to go");
+				break;
+		}
+	}
+
+}

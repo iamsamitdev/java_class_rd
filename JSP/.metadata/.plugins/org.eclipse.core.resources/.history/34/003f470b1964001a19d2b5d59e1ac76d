@@ -1,0 +1,25 @@
+<%@page contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
+<%@page import="java.sql.*"%>
+
+<%
+	// กำหนดตัวแปรสำหรับเชื่อมต่อฐานข้อมูล
+	String host = "localhost";
+	String username = "root";
+	String password = "1234";
+	String dbname = "javacrud";
+	String port = "3306";
+	String character = "?useUnicode=true&characterEncoding=UTF-8";
+	String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+character;
+	
+	// Load Driver
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	
+	// Connect MySQL
+	Connection connect = DriverManager.getConnection(url, username, password);
+	
+	if(connect != null){
+		// out.println("Connect database success");
+	}else{
+		out.println("Fail !");
+	}
+%>

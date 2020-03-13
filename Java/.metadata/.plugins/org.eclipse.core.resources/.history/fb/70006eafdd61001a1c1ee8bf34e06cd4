@@ -1,0 +1,11 @@
+package com.itgenius;
+
+public class JavaScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Class สำหรับรับข้อมูล
+		
+	}
+
+}

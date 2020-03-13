@@ -1,0 +1,21 @@
+package com.itgenius;
+
+public class ConditionIfEsle {
+
+	public static void main(String[] args) {
+		
+		boolean permission = true;
+		String username = "admin";
+		String password = "1234";
+		String type = "user";
+		
+		// เขียนเงื่อนไขตรวจสอบ username กับ password
+		if(username=="admin" && password=="1234") {
+			
+		}else {
+			System.out.println("Login fail! Username or Password Wrong.");
+		}
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.itgenius.db;
+
+import java.sql.Connection;
+
+public class ConnectMySQL {
+
+	public static Connection connect() {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+	}
+
+}
